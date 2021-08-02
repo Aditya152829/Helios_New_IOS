@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00F1E9A26B7DE3100B96698 /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F1E9926B7DE3100B96698 /* CommentsModel.swift */; };
+		B00F1E9C26B7E37500B96698 /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F1E9B26B7E37500B96698 /* CommentViewModel.swift */; };
+		B00F1E9F26B7FE9F00B96698 /* ListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F1E9E26B7FE9F00B96698 /* ListLoader.swift */; };
+		B03D3EF426B7ABAD00131326 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D3EF326B7ABAD00131326 /* PostDetailsViewController.swift */; };
+		B03D3EF626B7AC6D00131326 /* PostDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D3EF526B7AC6D00131326 /* PostDetailsTableViewCell.swift */; };
+		B03D3EF826B7B7E600131326 /* PostUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D3EF726B7B7E600131326 /* PostUserViewModel.swift */; };
+		B03D3EFA26B7BA1300131326 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D3EF926B7BA1300131326 /* UserModel.swift */; };
+		B0550D3126B666C400B798B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0550D2F26B666C400B798B5 /* Main.storyboard */; };
+		B0550D3426B666C400B798B5 /* Helios_New.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0550D3226B666C400B798B5 /* Helios_New.xcdatamodeld */; };
+		B0550D3626B666C500B798B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0550D3526B666C500B798B5 /* Assets.xcassets */; };
+		B0550D3926B666C500B798B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0550D3726B666C500B798B5 /* LaunchScreen.storyboard */; };
+		B0550D4426B666C500B798B5 /* Helios_NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0550D4326B666C500B798B5 /* Helios_NewTests.swift */; };
+		B0550D4F26B666C500B798B5 /* Helios_NewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0550D4E26B666C500B798B5 /* Helios_NewUITests.swift */; };
+		B0550D5F26B6671A00B798B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0550D5D26B6671A00B798B5 /* AppDelegate.swift */; };
+		B0550D6026B6671A00B798B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0550D5E26B6671A00B798B5 /* SceneDelegate.swift */; };
+		B06B4A1026B66A98004D3E2B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A0F26B66A98004D3E2B /* PostViewController.swift */; };
+		B06B4A1326B66B3E004D3E2B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A1226B66B3E004D3E2B /* PostTableViewCell.swift */; };
+		B06B4A1626B67CF2004D3E2B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A1526B67CF2004D3E2B /* PostModel.swift */; };
+		B06B4A1926B67D58004D3E2B /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A1826B67D58004D3E2B /* PostViewModel.swift */; };
+		B06B4A1D26B67E1C004D3E2B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A1B26B67E1C004D3E2B /* Constant.swift */; };
+		B06B4A1E26B67E1C004D3E2B /* AppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A1C26B67E1C004D3E2B /* AppUrl.swift */; };
+		B06B4A2226B67E80004D3E2B /* PostAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A2026B67E80004D3E2B /* PostAPIService.swift */; };
+		B06B4A2326B67E80004D3E2B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06B4A2126B67E80004D3E2B /* Networking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0550D4026B666C500B798B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0550D1E26B666C400B798B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0550D2526B666C400B798B5;
+			remoteInfo = Helios_New;
+		};
+		B0550D4B26B666C500B798B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0550D1E26B666C400B798B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0550D2526B666C400B798B5;
+			remoteInfo = Helios_New;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00F1E9926B7DE3100B96698 /* CommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
+		B00F1E9B26B7E37500B96698 /* CommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		B00F1E9E26B7FE9F00B96698 /* ListLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoader.swift; sourceTree = "<group>"; };
+		B03D3EF326B7ABAD00131326 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		B03D3EF526B7AC6D00131326 /* PostDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		B03D3EF726B7B7E600131326 /* PostUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUserViewModel.swift; sourceTree = "<group>"; };
+		B03D3EF926B7BA1300131326 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B0550D2626B666C400B798B5 /* Helios_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helios_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0550D3026B666C400B798B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0550D3326B666C400B798B5 /* Helios_New.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helios_New.xcdatamodel; sourceTree = "<group>"; };
+		B0550D3526B666C500B798B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0550D3826B666C500B798B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0550D3A26B666C500B798B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0550D3F26B666C500B798B5 /* Helios_NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Helios_NewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0550D4326B666C500B798B5 /* Helios_NewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helios_NewTests.swift; sourceTree = "<group>"; };
+		B0550D4526B666C500B798B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0550D4A26B666C500B798B5 /* Helios_NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Helios_NewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0550D4E26B666C500B798B5 /* Helios_NewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helios_NewUITests.swift; sourceTree = "<group>"; };
+		B0550D5026B666C500B798B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0550D5D26B6671A00B798B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0550D5E26B6671A00B798B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B06B4A0F26B66A98004D3E2B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B06B4A1226B66B3E004D3E2B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B06B4A1526B67CF2004D3E2B /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		B06B4A1826B67D58004D3E2B /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		B06B4A1B26B67E1C004D3E2B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B06B4A1C26B67E1C004D3E2B /* AppUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUrl.swift; sourceTree = "<group>"; };
+		B06B4A2026B67E80004D3E2B /* PostAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAPIService.swift; sourceTree = "<group>"; };
+		B06B4A2126B67E80004D3E2B /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0550D2326B666C400B798B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D3C26B666C500B798B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D4726B666C500B798B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00F1E9D26B7FE8400B96698 /* ThirdPartyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B00F1E9E26B7FE9F00B96698 /* ListLoader.swift */,
+			);
+			path = ThirdPartyClasses;
+			sourceTree = "<group>";
+		};
+		B0550D1D26B666C400B798B5 = {
+			isa = PBXGroup;
+			children = (
+				B0550D2826B666C400B798B5 /* Helios_New */,
+				B0550D4226B666C500B798B5 /* Helios_NewTests */,
+				B0550D4D26B666C500B798B5 /* Helios_NewUITests */,
+				B0550D2726B666C400B798B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0550D2726B666C400B798B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0550D2626B666C400B798B5 /* Helios_New.app */,
+				B0550D3F26B666C500B798B5 /* Helios_NewTests.xctest */,
+				B0550D4A26B666C500B798B5 /* Helios_NewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0550D2826B666C400B798B5 /* Helios_New */ = {
+			isa = PBXGroup;
+			children = (
+				B00F1E9D26B7FE8400B96698 /* ThirdPartyClasses */,
+				B06B4A1F26B67E3C004D3E2B /* Network */,
+				B06B4A1A26B67DE9004D3E2B /* Util */,
+				B06B4A1726B67D18004D3E2B /* ViewModel */,
+				B06B4A1426B67CDA004D3E2B /* Model */,
+				B06B4A0E26B66A53004D3E2B /* Controller */,
+				B0550D5C26B666D200B798B5 /* AppDelegate */,
+				B0550D2F26B666C400B798B5 /* Main.storyboard */,
+				B0550D3526B666C500B798B5 /* Assets.xcassets */,
+				B0550D3726B666C500B798B5 /* LaunchScreen.storyboard */,
+				B0550D3A26B666C500B798B5 /* Info.plist */,
+				B0550D3226B666C400B798B5 /* Helios_New.xcdatamodeld */,
+			);
+			path = Helios_New;
+			sourceTree = "<group>";
+		};
+		B0550D4226B666C500B798B5 /* Helios_NewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0550D4326B666C500B798B5 /* Helios_NewTests.swift */,
+				B0550D4526B666C500B798B5 /* Info.plist */,
+			);
+			path = Helios_NewTests;
+			sourceTree = "<group>";
+		};
+		B0550D4D26B666C500B798B5 /* Helios_NewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0550D4E26B666C500B798B5 /* Helios_NewUITests.swift */,
+				B0550D5026B666C500B798B5 /* Info.plist */,
+			);
+			path = Helios_NewUITests;
+			sourceTree = "<group>";
+		};
+		B0550D5C26B666D200B798B5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B0550D5D26B6671A00B798B5 /* AppDelegate.swift */,
+				B0550D5E26B6671A00B798B5 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B06B4A0E26B66A53004D3E2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A1126B66B1D004D3E2B /* cellClasses */,
+				B06B4A0F26B66A98004D3E2B /* PostViewController.swift */,
+				B03D3EF326B7ABAD00131326 /* PostDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B06B4A1126B66B1D004D3E2B /* cellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A1226B66B3E004D3E2B /* PostTableViewCell.swift */,
+				B03D3EF526B7AC6D00131326 /* PostDetailsTableViewCell.swift */,
+			);
+			path = cellClasses;
+			sourceTree = "<group>";
+		};
+		B06B4A1426B67CDA004D3E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A1526B67CF2004D3E2B /* PostModel.swift */,
+				B03D3EF926B7BA1300131326 /* UserModel.swift */,
+				B00F1E9926B7DE3100B96698 /* CommentsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B06B4A1726B67D18004D3E2B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A1826B67D58004D3E2B /* PostViewModel.swift */,
+				B03D3EF726B7B7E600131326 /* PostUserViewModel.swift */,
+				B00F1E9B26B7E37500B96698 /* CommentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B06B4A1A26B67DE9004D3E2B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A1C26B67E1C004D3E2B /* AppUrl.swift */,
+				B06B4A1B26B67E1C004D3E2B /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B06B4A1F26B67E3C004D3E2B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B06B4A2126B67E80004D3E2B /* Networking.swift */,
+				B06B4A2026B67E80004D3E2B /* PostAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0550D2526B666C400B798B5 /* Helios_New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0550D5326B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_New" */;
+			buildPhases = (
+				B0550D2226B666C400B798B5 /* Sources */,
+				B0550D2326B666C400B798B5 /* Frameworks */,
+				B0550D2426B666C400B798B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helios_New;
+			productName = Helios_New;
+			productReference = B0550D2626B666C400B798B5 /* Helios_New.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0550D3E26B666C500B798B5 /* Helios_NewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0550D5626B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_NewTests" */;
+			buildPhases = (
+				B0550D3B26B666C500B798B5 /* Sources */,
+				B0550D3C26B666C500B798B5 /* Frameworks */,
+				B0550D3D26B666C500B798B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0550D4126B666C500B798B5 /* PBXTargetDependency */,
+			);
+			name = Helios_NewTests;
+			productName = Helios_NewTests;
+			productReference = B0550D3F26B666C500B798B5 /* Helios_NewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0550D4926B666C500B798B5 /* Helios_NewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0550D5926B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_NewUITests" */;
+			buildPhases = (
+				B0550D4626B666C500B798B5 /* Sources */,
+				B0550D4726B666C500B798B5 /* Frameworks */,
+				B0550D4826B666C500B798B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0550D4C26B666C500B798B5 /* PBXTargetDependency */,
+			);
+			name = Helios_NewUITests;
+			productName = Helios_NewUITests;
+			productReference = B0550D4A26B666C500B798B5 /* Helios_NewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0550D1E26B666C400B798B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B0550D2526B666C400B798B5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					B0550D3E26B666C500B798B5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B0550D2526B666C400B798B5;
+					};
+					B0550D4926B666C500B798B5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B0550D2526B666C400B798B5;
+					};
+				};
+			};
+			buildConfigurationList = B0550D2126B666C400B798B5 /* Build configuration list for PBXProject "Helios_New" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0550D1D26B666C400B798B5;
+			productRefGroup = B0550D2726B666C400B798B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0550D2526B666C400B798B5 /* Helios_New */,
+				B0550D3E26B666C500B798B5 /* Helios_NewTests */,
+				B0550D4926B666C500B798B5 /* Helios_NewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0550D2426B666C400B798B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0550D3926B666C500B798B5 /* LaunchScreen.storyboard in Resources */,
+				B0550D3626B666C500B798B5 /* Assets.xcassets in Resources */,
+				B0550D3126B666C400B798B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D3D26B666C500B798B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D4826B666C500B798B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0550D2226B666C400B798B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00F1E9F26B7FE9F00B96698 /* ListLoader.swift in Sources */,
+				B03D3EF626B7AC6D00131326 /* PostDetailsTableViewCell.swift in Sources */,
+				B00F1E9C26B7E37500B96698 /* CommentViewModel.swift in Sources */,
+				B06B4A1026B66A98004D3E2B /* PostViewController.swift in Sources */,
+				B06B4A2326B67E80004D3E2B /* Networking.swift in Sources */,
+				B06B4A1926B67D58004D3E2B /* PostViewModel.swift in Sources */,
+				B06B4A1626B67CF2004D3E2B /* PostModel.swift in Sources */,
+				B00F1E9A26B7DE3100B96698 /* CommentsModel.swift in Sources */,
+				B06B4A2226B67E80004D3E2B /* PostAPIService.swift in Sources */,
+				B06B4A1E26B67E1C004D3E2B /* AppUrl.swift in Sources */,
+				B06B4A1D26B67E1C004D3E2B /* Constant.swift in Sources */,
+				B0550D5F26B6671A00B798B5 /* AppDelegate.swift in Sources */,
+				B06B4A1326B66B3E004D3E2B /* PostTableViewCell.swift in Sources */,
+				B03D3EF426B7ABAD00131326 /* PostDetailsViewController.swift in Sources */,
+				B0550D3426B666C400B798B5 /* Helios_New.xcdatamodeld in Sources */,
+				B03D3EF826B7B7E600131326 /* PostUserViewModel.swift in Sources */,
+				B03D3EFA26B7BA1300131326 /* UserModel.swift in Sources */,
+				B0550D6026B6671A00B798B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D3B26B666C500B798B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0550D4426B666C500B798B5 /* Helios_NewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0550D4626B666C500B798B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0550D4F26B666C500B798B5 /* Helios_NewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0550D4126B666C500B798B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0550D2526B666C400B798B5 /* Helios_New */;
+			targetProxy = B0550D4026B666C500B798B5 /* PBXContainerItemProxy */;
+		};
+		B0550D4C26B666C500B798B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0550D2526B666C400B798B5 /* Helios_New */;
+			targetProxy = B0550D4B26B666C500B798B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0550D2F26B666C400B798B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0550D3026B666C400B798B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0550D3726B666C500B798B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0550D3826B666C500B798B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0550D5126B666C500B798B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0550D5226B666C500B798B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0550D5426B666C500B798B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_New/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0550D5526B666C500B798B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_New/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0550D5726B666C500B798B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_NewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helios_New.app/Helios_New";
+			};
+			name = Debug;
+		};
+		B0550D5826B666C500B798B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_NewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helios_New.app/Helios_New";
+			};
+			name = Release;
+		};
+		B0550D5A26B666C500B798B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_NewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Helios_New;
+			};
+			name = Debug;
+		};
+		B0550D5B26B666C500B798B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Helios_NewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Helios-Demo.Helios-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Helios_New;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0550D2126B666C400B798B5 /* Build configuration list for PBXProject "Helios_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0550D5126B666C500B798B5 /* Debug */,
+				B0550D5226B666C500B798B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0550D5326B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0550D5426B666C500B798B5 /* Debug */,
+				B0550D5526B666C500B798B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0550D5626B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_NewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0550D5726B666C500B798B5 /* Debug */,
+				B0550D5826B666C500B798B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0550D5926B666C500B798B5 /* Build configuration list for PBXNativeTarget "Helios_NewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0550D5A26B666C500B798B5 /* Debug */,
+				B0550D5B26B666C500B798B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0550D3226B666C400B798B5 /* Helios_New.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0550D3326B666C400B798B5 /* Helios_New.xcdatamodel */,
+			);
+			currentVersion = B0550D3326B666C400B798B5 /* Helios_New.xcdatamodel */;
+			path = Helios_New.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0550D1E26B666C400B798B5 /* Project object */;
+}
